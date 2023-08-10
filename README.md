@@ -1,8 +1,5 @@
 # Fine-Tuning a Faster R-CNN for Object Detection
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue.svg)](https://www.python.org/)
-
 Fine-tuning a Faster R-CNN object detection model using PyTorch for improved object detection accuracy. This repository provides a Jupyter Notebook that takes you through the steps of re-training a pre-trained model on a custom dataset, performing data augmentation, and evaluating the model's performance.
 
 ## Introduction
@@ -10,7 +7,7 @@ Fine-tuning a Faster R-CNN object detection model using PyTorch for improved obj
 In this project, I have fine-tuned a Faster R-CNN model for object detection using a custom dataset. Faster R-CNN is a state-of-the-art object detection algorithm that combines deep learning with region proposal networks. 
 By utilizing transfer learning and fine-tuning, you can save significant training time and computational resources. This repository serves as a guide for individuals looking to enhance the accuracy of object detection tasks through fine-tuning, especially when working with specialized datasets.
 
-In this project, I demonstrate the fine-tuning process using a custom vehicle detection dataset. The dataset includes images of various vehicles, and our goal is to train the Faster R-CNN model to accurately detect and classify different vehicle types.
+In this project, I demonstrate the fine-tuning process using a custom vehicle detection dataset. The dataset includes images of various vehicles, and our goal is to train the Faster R-CNN model to accurately detect and classify different vehicle types. The Faster R-CNN model was pretrained on the **COCO** dataset and fine-tuned on a vehicle dataset from **CrowdAI**
 
 ## Getting Started
 
