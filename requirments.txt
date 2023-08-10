@@ -1,0 +1,6 @@
+# for PyTorch: https://pytorch.org/get-started
+
+opencv-python
+matplotlib
+pandas
+Pillow
